@@ -1,0 +1,40 @@
+<!--Banner-->
+<!--section-->
+<!--Phần menu chính-->
+<div class="container-fluid" id="background-menu">
+  <div class="container" id="main-menu">
+    <h3>
+      Menu
+    </h3>
+    <div id="showmenu">
+      <p>
+        Filter by category:
+      </p>
+      <a href="/products">Show all</a>
+      <a href="/products/coffees&teas">Coffees & Teas</a>
+      <a href="/products/cakes">Cakes</a>
+      <a class="active" href="/products/Ice-Creams">Ice-Creams</a>
+    </div>
+    <div id="back-ground">
+    </div>
+    <div class="row">
+      {{#each Creams}}
+      {{#if id}}
+      <div class="col-sm-6 col-md-4 col-lg-3"><img src="{{imagepath}}" alt="" class="img-thumbnail">
+        <h4>
+          {{name}}
+        </h4>
+        <p>
+          Gía tiền: {{price}} VNĐ
+        </p>
+        <a href="/products/Ice-Creams/{{id}}">
+          Xem chi tiết
+        </a>
+      </div>
+      {{/if}}
+      {{/each}}
+    </div>
+  </div>
+</div>
+<!--Phần menu chính-->
+<!--section-->

@@ -1,0 +1,135 @@
+/*Định dạng phàn body*/
+  /*Định dạng màu cho header*/
+header
+  {
+      background: url(../img/bg.jpg) center bottom repeat;
+      text-align: center;
+      padding: 25px 0 25px;
+  }
+#collapsibleNavId li a
+  {
+      font-family:'Changa one', cursive;
+      color: white;
+  }
+  /* trong trường hợp người dùng đưa con trỏ chuột*/
+#collapsibleNavId li a:hover, #collapsibleNavId li.active a
+{
+    color: rgb(205, 169, 50);
+    background: none;
+}
+
+/*Định nghĩa banner*/
+#banner
+{
+    background-color:rgb(37, 4, 2);
+    color: white;
+    padding: 50px 0 50px;
+}
+/*Định nghĩa font chữ cho thẻ h4*/
+#banner h4
+{
+    font-size: 50px;
+    line-height: 60px;/*chiều cao dòng*/
+    font-family: 'Changa One',cursive;
+    font-weight: 900px;
+    letter-spacing: 1px;/*để ko dính liền nhau*/
+    color: rgb(205, 169, 50) ;
+    padding: 10px 0 10px;
+}
+/*định dạng từ coffee business*/
+#banner p
+{
+    font-size: 80px;
+    line-height: 60px;/*chiều cao dòng*/
+    font-family: 'Changa One',cursive;
+    font-weight: 900px;
+    letter-spacing: 1px;/*để ko dính liền nhau*/
+    padding: 10px 0 10px;
+}
+/* định nghĩa phần section*/
+section
+{
+    background: url(../img/bg.jpg);
+    padding: 10px 0 10px;
+}
+#image-freshcoffee
+{
+    float: right;
+    margin-top: -30px;
+    margin-left: -40px;
+
+}
+#fresh-coffee
+{
+    border:none; /* dashed là định dạng khung đứt khúc*/
+    padding: 20px 20px;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#fresh-coffee h2
+{
+    color: rgb(167, 179, 9);
+    font-size: 50px;
+}
+/*đường phân cách 2 section*/
+#background-section
+{
+    background: rgb(37, 4, 2);
+    padding: 1em;
+    content: "";
+}
+/*định nghĩa phần section-01*/
+#section-01
+{
+    color: rgb(205, 169, 50);
+    padding: 10px 0 30px;
+    background: url(../img/bg.jpg);
+}
+#section-01 h2
+{
+    color: rgb(167, 179, 9);
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+#section-01 p
+{
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+ /*footer*/
+ footer
+{
+    background:  rgb(80, 75, 2);
+    text-align: center;
+    padding: 20px;
+
+}
+footer li
+{
+    display: inline-block;
+    padding: 20px 70px 15px 0;
+}
+
+footer a
+{
+    font-family:'Changa one', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+
+footer nav li a.active, footer nav li a:hover
+{
+    color:rgb(182, 144, 21);
+    text-decoration: none;
+}
+
+footer div
+{
+    font-size: 25px;
+    padding: -20px;
+}

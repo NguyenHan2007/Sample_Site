@@ -1,0 +1,54 @@
+/*Định dạng phàn body*/
+  /*Định dạng màu cho header*/
+/* định nghĩa phần section*/
+section
+{
+    background: url(../img/bg.jpg) 0 0 repeat;
+}
+
+#formsection-01
+{
+    background: rgb(219, 192, 104) ;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+#formsection-background
+{
+    padding: 3em;
+    content: "";
+}
+#formsection-02
+{
+    text-align: center;
+    color: blanchedalmond;
+}
+#formsection-02 h2
+{
+    font-size: 40px;
+}
+
+#formsection-02 p
+{
+    font-size: 23px;
+}
+
+#saturday
+{
+    background: rgb(255, 102, 0);
+}
+
+#come-on
+{
+    color: black;
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+#comeon-open
+{
+    columns: #333333;;
+    font-size: 70px;
+    padding-top: 70px;
+}

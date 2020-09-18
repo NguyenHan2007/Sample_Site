@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "ryejjuqhbtvvbg",
+    "password": "f4bc9da8077d00a2831104c9ab364a33f77f046923e0aa034b59a2824285be60",
+    "database": "dd0359o3ormu1r",
+    "host": "ec2-3-91-112-166.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "123456",
+    "database": "coffee_businessdb",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "ryejjuqhbtvvbg",
+    "password": "f4bc9da8077d00a2831104c9ab364a33f77f046923e0aa034b59a2824285be60",
+    "database": "dd0359o3ormu1r",
+    "host": "ec2-3-91-112-166.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
+  }
+}

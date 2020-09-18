@@ -1,0 +1,70 @@
+/*Định dạng phàn body*/
+/*about us*/
+#about-us
+{
+    background: url(../img/bg.jpg) 0 0 repeat;
+}
+
+#about-us-background
+{
+    background: url(../img/about.jpg) 0 0 repeat;
+}
+#about-us-background div
+{
+    padding: 8em;
+    content: "";
+}
+#about-us-background form
+{
+    background: rgb(212, 206, 206);
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: -16px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 40px;
+}
+
+#about-us h2
+{
+    color:  rgb(37, 39, 2);
+    font-size: 40px;
+}
+
+#about-us p
+{
+    columns: #333333;;
+}
+
+/*đường phân cách 2 section*/
+#background-section
+{
+    background: rgb(37, 4, 2);
+    padding: 1em;
+    content: "";
+}
+/*Member*/
+.member
+{
+    background: url(../img/bg.jpg);
+}
+#member01 img
+{
+    margin:40px 0 10px
+}
+.member h3
+{
+    font-size: 80px;
+    line-height: 60px;/*chiều cao dòng*/
+    font-family: 'Changa One',cursive;
+    font-weight: 900px;
+    letter-spacing: 1px;/*để ko dính liền nhau*/
+    padding: 40px 0 0;
+    color:rgb(212, 206, 206) ;
+}
+
+#member01 h4, #member01 p
+{
+    color:white ;
+}
+/*định dạng */

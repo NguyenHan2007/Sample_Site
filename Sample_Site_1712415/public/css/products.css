@@ -1,0 +1,44 @@
+/*Định dạng phàn body*/
+/*Định nghĩa phần menu*/
+#background-menu
+{
+    background: url(../img/bg.jpg);
+    padding:20px 0 20px;
+}
+#main-menu
+{
+    background:white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#main-menu h3
+{
+    color:rgb(37, 4, 2);
+    font-size: 60px;
+    font-family: 'Changa One',cursive;
+}
+#showmenu p
+{
+    font-size: 25px;
+    color: rgb(78, 62, 6);
+}
+#showmenu a
+{
+    padding-right: 20px;
+    color: rgb(66, 53, 53);
+}
+#showmenu a.active, #showmenu a:hover
+{
+    color:  rgb(141, 115, 29);
+}
+/*đường background phân cách*/
+#back-ground
+{
+    background: rgb(37, 4, 2);
+    padding: 0.5em;
+    content: "";
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
